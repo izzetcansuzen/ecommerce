@@ -70,7 +70,7 @@ export default function Home() {
             </Rating>
             <div className="text-[12px] text-white">$299</div>
           </div>
-          <Button className="absolute bottom-0 left-0 text-[10px] w-full h-[25px] rounded-md rounded-tl-none rounded-tr-none bg-[#7367F0]">
+          <Button className="absolute bottom-0 left-0 text-[10px] w-full h-[25px] rounded-md rounded-tl-none rounded-tr-none bg-[#7367F0] enabled:hover:bg-[#7367F0] focus:ring-0 border-none focus:bg-[#7367F0] outline-none">
             Add To Cart
           </Button>
         </div>
