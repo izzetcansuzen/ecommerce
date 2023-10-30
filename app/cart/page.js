@@ -1,3 +1,5 @@
+import Progressbar from "@/app/components/progressbar";
+
 export default function Cart() {
-  return <div>Cart Page</div>;
+  return <Progressbar step="1" />;
 }
