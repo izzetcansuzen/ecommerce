@@ -66,12 +66,9 @@ export default function Home() {
               <Rating.Star />
               <p className="text-[10px] text-white md:text-[12px]">4.95</p>
               <span className="mx-1.5 h-1 w-1 rounded-full bg-gray-500 dark:bg-gray-400" />
-              <a
-                className="text-[10px] font-medium text-white underline hover:no-underline dark:text-white"
-                href="#"
-              >
-                <p>73 reviews</p>
-              </a>
+              <p className="text-[10px] font-medium text-white hover:no-underline dark:text-white">
+                73 reviews
+              </p>
             </Rating>
             <div className="text-[12px] text-white md:text-[20px]">$299</div>
           </div>
