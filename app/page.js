@@ -3,6 +3,7 @@ import Image from "next/image";
 import profileImg from "../public/images/profile.png";
 import IphoneImg from "../public/images/iphone.webp";
 import { Button, Carousel, Rating } from "flowbite-react";
+import Link from "next/link";
 export default function Home() {
   return (
     <>
@@ -74,9 +75,11 @@ export default function Home() {
             </Rating>
             <div className="text-[12px] text-white md:text-[20px]">$299</div>
           </div>
-          <Button className="sticky bottom-0 left-0 text-[10px] w-full h-[25px] rounded-md rounded-tl-none rounded-tr-none bg-[#7367F0] enabled:hover:bg-[#7367F0] focus:ring-0 border-none focus:bg-[#7367F0] outline-none">
-            Add To Cart
-          </Button>
+          <Link href="/product/iphone-12">
+            <Button className="sticky bottom-0 left-0 text-[10px] w-full h-[25px] rounded-md rounded-tl-none rounded-tr-none bg-[#7367F0] enabled:hover:bg-[#7367F0] focus:ring-0 border-none focus:bg-[#7367F0] outline-none">
+              Add To Cart
+            </Button>
+          </Link>
         </div>
       </div>
     </>
